@@ -3,7 +3,6 @@ package Lesson_7;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.mockito.Mockito;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -14,7 +13,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-public class StandartPersonUtilsTest {
+public class PersonUtilsTest {
 
     @Test
     public void testGetInnerAndOuterPersons() throws Exception {
@@ -192,7 +191,7 @@ public class StandartPersonUtilsTest {
         expectedMap.put("Outer", outer);
 
 
-        StandartPersonUtils spu = mock(StandartPersonUtils.class);
+        PersonUtils spu = mock(PersonUtils.class);
         when(spu.getInnerAndOuterPersons(list0, list1)).thenReturn(expectedMap);
 //        verify(spu).getInnerAndOuterPersons(list0, list1);
         Assert.assertEquals(expectedMap, spu.getInnerAndOuterPersons(list0, list1));

@@ -2,7 +2,7 @@ package Lesson_7;
 
 import java.util.*;
 
-public class StandartPersonUtils {
+public class PersonUtils {
 
     public Map<String, List<Person>> getInnerAndOuterPersons(List<Person> persons1, List<Person> persons2) {
         Map<String, List<Person>> result = new HashMap<>();
@@ -24,11 +24,15 @@ public class StandartPersonUtils {
         uniqueSecondName.addAll(persons1);
         uniqueSecondName.addAll(persons2);
         uniqueSecondName.removeAll(sameSecondName);
-            result.put("Inner", sameSecondName);
-            result.put("Outer", uniqueSecondName);
-            return result;
+        result.put("Inner", sameSecondName);
+        result.put("Outer", uniqueSecondName);
+        return result;
     }
+    public Map<String, List<Person>> getInnerAndOuterPersons(List<Person> ... persons) {
+        Map<String, List<Person>> result = new HashMap<>();
 
+        return result;
+    }
     public List<Person> getUniquePersonsOfSameAge(int age, List<Person> persons1, List<Person> persons2){
         List<Person> result = new ArrayList<>();
         Map<String, List<Person>> map = getInnerAndOuterPersons(persons1, persons2);
@@ -38,6 +42,16 @@ public class StandartPersonUtils {
                     result.add(uniqueSecondNames.get(i));
                 }
             }
+        return result;
+    }
+    public List<Person> getUniquePersonsOfSameAge(int age, List<Person> ... persons){
+        List<Person> result = new ArrayList<>();
+        List<Integer> ages = new LinkedList<>();
+        for (int i = 0; i < persons.length; i++) {
+            for (int j = 0; j < persons[i].size(); j++) {
+                ages.add(persons[i].get(j).getAge());
+            }
+        }
         return result;
     }
 }

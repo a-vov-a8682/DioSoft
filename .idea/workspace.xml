@@ -63,11 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lesson_7/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.8095238" vertical-offset="534" max-vertical-offset="2091">
-              <caret line="96" column="41" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="2754">
+              <caret line="135" column="94" selection-start-line="135" selection-start-column="94" selection-end-line="135" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -76,40 +76,28 @@
       <file leaf-file-name="UserUtilsTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/lesson_3/UserUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="922" max-vertical-offset="5066">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StandartPersonUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lesson_7/StandartPersonUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="833">
-              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1853" max-vertical-offset="5066">
+              <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StandartPersonUtilsTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Lesson_7/StandartPersonUtilsTest.java">
+      <file leaf-file-name="PersonUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lesson_7/PersonUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2965" max-vertical-offset="3553">
-              <caret line="196" column="7" selection-start-line="196" selection-start-column="7" selection-end-line="196" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1071">
+              <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserUtilsTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Lesson_5_class/UserUtilsTest.java">
+      <file leaf-file-name="PersonUtilsTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/Lesson_7/PersonUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="23205" max-vertical-offset="23358">
-              <caret line="1365" column="42" selection-start-line="1365" selection-start-column="42" selection-end-line="1365" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.66213924" vertical-offset="2755" max-vertical-offset="3366">
+              <caret line="195" column="7" selection-start-line="195" selection-start-column="7" selection-end-line="195" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -166,13 +154,14 @@
         <option value="$PROJECT_DIR$/src/Lesson_5_class/UserUtilsServiceDelegate.java" />
         <option value="$PROJECT_DIR$/src/Lesson_7/Sex.java" />
         <option value="$PROJECT_DIR$/src/Lesson_5_class/User.java" />
-        <option value="$PROJECT_DIR$/src/Lesson_7/PersonUtils.java" />
         <option value="$PROJECT_DIR$/src/Lesson_7/AdvancedPersonUtils.java" />
         <option value="$PROJECT_DIR$/src/Lesson_7/StandartPersonUtils.java" />
-        <option value="$PROJECT_DIR$/src/Lesson_7/Main.java" />
         <option value="$PROJECT_DIR$/src/Lesson_7/Person.java" />
         <option value="$PROJECT_DIR$/test/Lesson_7/StandartPersonUtilsTest.java" />
         <option value="$PROJECT_DIR$/test/Lesson_5_class/UserUtilsTest.java" />
+        <option value="$PROJECT_DIR$/test/Lesson_7/PersonUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/Lesson_7/Main.java" />
+        <option value="$PROJECT_DIR$/src/Lesson_7/PersonUtils.java" />
       </list>
     </option>
   </component>
@@ -239,6 +228,10 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lesson_7" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -250,14 +243,14 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,7 +292,7 @@
       <recent name="C:\Users\VovaASUS\Desktop\Java\IdeaProjects\dioSoft\src\Lesson_5_class" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserUtilsTest.testMockInnerUnion">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="UserUtilsTest.testMockMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dioSoft" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -388,12 +381,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="StandartPersonUtilsTest.testGetInnerAndOuterPersons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="PersonUtilsTest.testGetInnerAndOuterPersons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dioSoft" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Lesson_7" />
-      <option name="MAIN_CLASS_NAME" value="Lesson_7.StandartPersonUtilsTest" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_7.PersonUtilsTest" />
       <option name="METHOD_NAME" value="testGetInnerAndOuterPersons" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -544,13 +537,13 @@
       <item index="1" class="java.lang.String" itemvalue="JUnit.UserUtilsTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.UserUtilsTest.testMockInnerUnion" />
       <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.StandartPersonUtilsTest.testGetInnerAndOuterPersons" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PersonUtilsTest.testGetInnerAndOuterPersons" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserUtilsTest.testMockInnerUnion" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StandartPersonUtilsTest.testGetInnerAndOuterPersons" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserUtilsTest.testMockInnerUnion" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PersonUtilsTest.testGetInnerAndOuterPersons" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.UserUtilsTest.testMockMerge" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.UserUtilsTest" />
       </list>
@@ -573,8 +566,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -592,7 +585,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2246596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35609755" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3105691" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="100" width="1178" height="544" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -628,7 +621,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/Lesson_7/StandartPersonUtilsTest.java">
+    <entry file="file://$PROJECT_DIR$/test/Lesson_7/PersonUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2965" max-vertical-offset="3553">
           <caret line="196" column="7" selection-start-line="196" selection-start-column="7" selection-end-line="196" selection-end-column="7" />
@@ -640,7 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23358">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,51 +923,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lesson_7/StandartPersonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="833">
-          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Lesson_7/StandartPersonUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2965" max-vertical-offset="3553">
-          <caret line="196" column="7" selection-start-line="196" selection-start-column="7" selection-end-line="196" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Lesson_5_class/UserUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1996" max-vertical-offset="2601">
-          <caret line="1365" column="42" selection-start-line="1365" selection-start-column="42" selection-end-line="1365" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/lesson_3/UserUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="922" max-vertical-offset="5066">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lesson_5_class/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="method#compare#0;class#User#0" expanded="false" />
-            <element signature="method#equals#0;class#User#0" expanded="false" />
-            <element signature="method#hashCode#0;class#User#0" expanded="false" />
-            <element signature="method#toString#0;class#User#0" expanded="false" />
-            <element signature="class#Builder#0;class#User#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -983,7 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.50340134" vertical-offset="364" max-vertical-offset="952">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,14 +941,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23129252" vertical-offset="714" max-vertical-offset="1989">
           <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Lesson_5_class/UserUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9132653" vertical-offset="22566" max-vertical-offset="23256">
+          <caret line="1365" column="42" selection-start-line="1365" selection-start-column="42" selection-end-line="1365" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lesson_7/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8095238" vertical-offset="534" max-vertical-offset="2091">
-          <caret line="96" column="41" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2081" max-vertical-offset="2720">
+          <caret line="135" column="94" selection-start-line="135" selection-start-column="94" selection-end-line="135" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lesson_7/PersonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lesson_3/UserUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="194" max-vertical-offset="782">
+          <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Lesson_7/PersonUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66213924" vertical-offset="2755" max-vertical-offset="3366">
+          <caret line="195" column="7" selection-start-line="195" selection-start-column="7" selection-end-line="195" selection-end-column="7" />
           <folding />
         </state>
       </provider>
