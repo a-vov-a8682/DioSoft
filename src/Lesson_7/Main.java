@@ -133,9 +133,15 @@ public class Main {
 
         System.out.println("getUniquePersonsOfSameAge");
         System.out.println();
-        List<Person> list = new PersonUtils().getUniquePersonsOfSameAge(50,list0, list1, list2);
-        for (Person person : list) {
-            System.out.println(person.getFirstName() + " " + person.getAge());
+
+        Map <String, List<Person>> map = new PersonUtils().getInnerAndOuterPersons(list1,list2,list0);
+
+        for (List<Person> list : map.values()) {
+            for (Person person : list) {
+                System.out.println(person.getSecondName());
+            }
+        }
+
         }
 //        System.out.println("__________________________________________________________");
 //        Map<String, List<Person>> map = new PersonUtils().getInnerAndOuterPersons(list0, list1);
@@ -153,4 +159,4 @@ public class Main {
 //            System.out.println(person.getFirstName() + " " + person.getSecondName() + " " + person.getSalary());
 //        }
     }
-}
+

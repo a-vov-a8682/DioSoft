@@ -30,6 +30,26 @@ public class PersonUtils {
     }
     public Map<String, List<Person>> getInnerAndOuterPersons(List<Person> ... persons) {
         Map<String, List<Person>> result = new HashMap<>();
+        List<Person> allPersons = new ArrayList<>();
+        List<Person> allPersonCopy = new ArrayList<>();
+        List<Person> withUniqueSecondName = new LinkedList<>();
+        List<Person> withSameSecondName = new LinkedList<>();
+        for (int i = 0; i < persons.length; i++) {
+                allPersons.addAll(persons[i]);
+                allPersonCopy.addAll(persons[i]);
+        }
+
+        for (int i = 0; i < allPersons.size(); i++) {
+            for (int j = 0; j < allPersonCopy.size(); j++) {
+                if(allPersons.get(i).getSecondName().equals(allPersonCopy.get(j).getSecondName())){
+                    withSameSecondName.add(allPersonCopy.get(j));
+                    continue;
+                }
+                withSameSecondName.add(allPersons.get(i));
+            }
+        }
+        result.put("Inner", withSameSecondName);
+
 
         return result;
     }
