@@ -190,14 +190,11 @@ public class PersonUtilsTest {
         expectedMap.put("Inner", inner);
         expectedMap.put("Outer", outer);
 
-
         PersonUtils spu = mock(PersonUtils.class);
         when(spu.getInnerAndOuterPersons(list0, list1)).thenReturn(expectedMap);
-//        verify(spu).getInnerAndOuterPersons(list0, list1);
         Assert.assertEquals(expectedMap, spu.getInnerAndOuterPersons(list0, list1));
     }
     @Test
     public void testGetUniquePersonsOfSameAge() throws Exception {
-
     }
 }

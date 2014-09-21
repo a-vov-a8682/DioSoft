@@ -4,9 +4,8 @@ import org.junit.Assert;
 import org.junit.Test;
 import java.util.*;
 
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
+
 
 public class UserUtilsTest {
     @Test

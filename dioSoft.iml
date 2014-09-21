@@ -19,7 +19,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="mockito-1.9" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -29,6 +28,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="mockito-all-1.9.5" level="project" />
   </component>
 </module>
 
