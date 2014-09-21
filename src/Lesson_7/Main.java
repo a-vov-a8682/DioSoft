@@ -131,7 +131,6 @@ public class Main {
                 .sex(Sex.F)
                 .build());
 
-
         System.out.println("getInnerAndOuterPersons_INNER");
         System.out.println();
         List<Person> inner0 = new PersonUtils().getInnerAndOuterPersons(list0, list1, list2).get("Inner");
@@ -150,9 +149,9 @@ public class Main {
         System.out.println("__________________________________________________________");
         System.out.println("getUniquePersonsOfSameAge");
         System.out.println();
-        List<Person> sameAge0 = new PersonUtils().getUniquePersonsOfSameAge(21, list1, list2);
+        List<Person> sameAge0 = new PersonUtils().getUniquePersonsOfSameAge(25, list1, list0);
         for (Person person : sameAge0) {
-            System.out.println(person.getFirstName() + " " + person.getAge() + " " + person.getSalary());
+            System.out.println(person.getFirstName() + " "+ person.getSecondName() + " " + person.getAge() + " " + person.getSalary());
         }
 
         System.out.println("__________________________________________________________");
@@ -160,7 +159,7 @@ public class Main {
         System.out.println();
         List<Person> sameAge1 = new PersonUtils().getUniquePersonsOfSameAge(25, list1, list2, list0);
         for (Person person : sameAge1) {
-            System.out.println(person.getFirstName() + " " + person.getAge() + " " + person.getSalary());
+            System.out.println(person.getFirstName() + " "+ person.getSecondName() + " " + person.getAge() + " " + person.getSalary());
         }
 
         System.out.println("__________________________________________________________");
@@ -171,6 +170,7 @@ public class Main {
         for (Person person : outer1) {
             System.out.println(person.getFirstName() + " " + person.getSecondName() + " " + person.getSalary());
         }
+
         System.out.println("__________________________________________________________");
         System.out.println("getInnerAndOuterPersons_INNER");
         System.out.println();
@@ -178,6 +178,8 @@ public class Main {
         for (Person person : inner1) {
             System.out.println(person.getFirstName() + " " + person.getSecondName() + " " + person.getSalary());
         }
-        }
     }
+}
+
+
 

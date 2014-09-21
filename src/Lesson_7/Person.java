@@ -43,19 +43,18 @@ public class Person implements Comparator<Person>{
             return -1;
         }
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Person person = (Person) o;
+        Person that = (Person) o;
 
-        if (age != person.age) return false;
-        if (salary != person.salary) return false;
-        if (firstName != null ? !firstName.equals(person.firstName) : person.firstName != null) return false;
-        if (secondName != null ? !secondName.equals(person.secondName) : person.secondName != null) return false;
-        if (sex != person.sex) return false;
+        if (age != that.age) return false;
+        if (salary != that.salary) return false;
+        if (firstName != null ? !firstName.equals(that.firstName) : that.firstName != null) return false;
+        if (secondName != null ? !secondName.equals(that.secondName) : that.secondName != null) return false;
+        if (sex != that.sex) return false;
 
         return true;
     }
