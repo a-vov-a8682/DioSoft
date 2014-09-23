@@ -1,6 +1,7 @@
 package Lesson_5_class;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -84,7 +85,8 @@ public class Main {
                 .sex(Sex.M)
                 .build());
 
-        service.merge(left, right);
+        List<User> list = service.outerUnion(left, right);
+        list.stream().forEach(System.out :: println);
     }
 
 }

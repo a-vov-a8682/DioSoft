@@ -27,13 +27,13 @@ public class PersonUtils {
         List<Person> outer = new ArrayList<>();
         List<Person> fullList = new ArrayList<>();
         Person tempPerson;
-
         fullList.addAll(persons1);
         fullList.addAll(persons2);
 
         while (fullList.size() != 0){
             tempPerson = fullList.get(0);
             fullList.remove(tempPerson);
+
             if (containsSecondName(tempPerson.getSecondName(), fullList)) {
                 for (int i = 0; i < fullList.size(); i++) {
                     if(fullList.get(i).getSecondName().equals(tempPerson.getSecondName())){

@@ -1,13 +1,12 @@
 package Lesson_7;
 
-import java.util.Comparator;
-
-public class Person implements Comparator<Person>{
+public class Person{
     private final String firstName;
     private final String secondName;
     private final int age;
     private final long salary;
     private final Sex sex;
+
 
     private Person(Builder builder){
         this.firstName = builder.firstName;
@@ -33,16 +32,6 @@ public class Person implements Comparator<Person>{
         return sex;
     }
 
-    @Override
-    public int compare(Person o1, Person o2) {
-        if(o1.equals(o2)) {
-            return 0;
-        }else if(o1.salary > o2.salary){
-            return 1;
-        }else {
-            return -1;
-        }
-    }
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

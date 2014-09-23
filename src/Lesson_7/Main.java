@@ -131,36 +131,36 @@ public class Main {
                 .sex(Sex.F)
                 .build());
 
-        System.out.println("getInnerAndOuterPersons_INNER");
-        System.out.println();
-        List<Person> inner0 = new PersonUtils().getInnerAndOuterPersons(list0, list1, list2).get("Inner");
-        for (Person person : inner0) {
-            System.out.println(person.getFirstName() + " " + person.getSecondName() + " " + person.getSalary());
-        }
+//        System.out.println("getInnerAndOuterPersons_INNER");
+//        System.out.println();
+//        List<Person> inner0 = new PersonUtils().getInnerAndOuterPersons(list0, list1, list2).get("Inner");
+//        for (Person person : inner0) {
+//            System.out.println(person.getFirstName() + " " + person.getSecondName() + " " + person.getSalary());
+//        }
 
-        System.out.println("__________________________________________________________");
-        System.out.println("getInnerAndOuterPersons_OUTER");
-        System.out.println();
-        List<Person> outer0 = new PersonUtils().getInnerAndOuterPersons(list0, list1, list2).get("Outer");
-        for (Person person : outer0) {
-            System.out.println(person.getFirstName() + " " + person.getSecondName() + " " + person.getSalary());
-        }
+//        System.out.println("__________________________________________________________");
+//        System.out.println("getInnerAndOuterPersons_OUTER");
+//        System.out.println();
+//        List<Person> outer0 = new PersonUtils().getInnerAndOuterPersons(list0, list1, list2).get("Outer");
+//        for (Person person : outer0) {
+//            System.out.println(person.getFirstName() + " " + person.getSecondName() + " " + person.getSalary());
+//        }
 
-        System.out.println("__________________________________________________________");
-        System.out.println("getUniquePersonsOfSameAge");
-        System.out.println();
-        List<Person> sameAge0 = new PersonUtils().getUniquePersonsOfSameAge(25, list1, list0);
-        for (Person person : sameAge0) {
-            System.out.println(person.getFirstName() + " "+ person.getSecondName() + " " + person.getAge() + " " + person.getSalary());
-        }
+//        System.out.println("__________________________________________________________");
+//        System.out.println("getUniquePersonsOfSameAge");
+//        System.out.println();
+//        List<Person> sameAge0 = new PersonUtils().getUniquePersonsOfSameAge(25, list1, list0);
+//        for (Person person : sameAge0) {
+//            System.out.println(person.getFirstName() + " "+ person.getSecondName() + " " + person.getAge() + " " + person.getSalary());
+//        }
 
-        System.out.println("__________________________________________________________");
-        System.out.println("getUniquePersonsOfSameAge");
-        System.out.println();
-        List<Person> sameAge1 = new PersonUtils().getUniquePersonsOfSameAge(25, list1, list2, list0);
-        for (Person person : sameAge1) {
-            System.out.println(person.getFirstName() + " "+ person.getSecondName() + " " + person.getAge() + " " + person.getSalary());
-        }
+//        System.out.println("__________________________________________________________");
+//        System.out.println("getUniquePersonsOfSameAge");
+//        System.out.println();
+//        List<Person> sameAge1 = new PersonUtils().getUniquePersonsOfSameAge(25, list1, list2, list0);
+//        for (Person person : sameAge1) {
+//            System.out.println(person.getFirstName() + " "+ person.getSecondName() + " " + person.getAge() + " " + person.getSalary());
+//        }
 
         System.out.println("__________________________________________________________");
         Map<String, List<Person>> map = new PersonUtils().getInnerAndOuterPersons(list0, list1);
@@ -170,14 +170,14 @@ public class Main {
         for (Person person : outer1) {
             System.out.println(person.getFirstName() + " " + person.getSecondName() + " " + person.getSalary());
         }
-
-        System.out.println("__________________________________________________________");
-        System.out.println("getInnerAndOuterPersons_INNER");
-        System.out.println();
-        List<Person> inner1 = map.get("Inner");
-        for (Person person : inner1) {
-            System.out.println(person.getFirstName() + " " + person.getSecondName() + " " + person.getSalary());
-        }
+//
+//        System.out.println("__________________________________________________________");
+//        System.out.println("getInnerAndOuterPersons_INNER");
+//        System.out.println();
+//        List<Person> inner1 = map.get("Inner");
+//        for (Person person : inner1) {
+//            System.out.println(person.getFirstName() + " " + person.getSecondName() + " " + person.getSalary());
+//        }
     }
 }
 
