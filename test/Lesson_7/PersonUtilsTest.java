@@ -9,8 +9,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import static org.junit.Assert.fail;
 import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 public class PersonUtilsTest {
@@ -22,6 +22,7 @@ public class PersonUtilsTest {
         List<Person> inner = new ArrayList<>();
         List<Person> outer = new ArrayList<>();
         Map<String, List<Person>> expectedMap = new HashMap<>();
+        //local code review (vtegza): extract actual persons to the object variables and reuse them in other tests @ 9/28/2014
         list0.add(new Person.Builder()
                 .firstName("Mike")
                 .secondName("Smith")
@@ -194,7 +195,10 @@ public class PersonUtilsTest {
         when(spu.getInnerAndOuterPersons(list0, list1)).thenReturn(expectedMap);
         Assert.assertEquals(expectedMap, spu.getInnerAndOuterPersons(list0, list1));
     }
+
+    //local code review (vtegza): never keep empty test methods @ 9/28/2014
     @Test
     public void testGetUniquePersonsOfSameAge() throws Exception {
+        fail();
     }
 }

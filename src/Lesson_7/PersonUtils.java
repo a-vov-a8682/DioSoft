@@ -2,6 +2,7 @@ package Lesson_7;
 
 import java.util.*;
 
+//local code review (vtegza): add unit tests for methods @ 9/28/2014
 public class PersonUtils {
 
     private boolean containsSecondName (String secondName, List<Person> list){
@@ -35,6 +36,7 @@ public class PersonUtils {
             fullList.remove(tempPerson);
 
             if (containsSecondName(tempPerson.getSecondName(), fullList)) {
+                //local code review (vtegza): replace with foreach @ 9/28/2014
                 for (int i = 0; i < fullList.size(); i++) {
                     if(fullList.get(i).getSecondName().equals(tempPerson.getSecondName())){
                         inner.add(fullList.get(i));
@@ -65,6 +67,7 @@ public class PersonUtils {
             tempPerson = fullList.get(0);
             fullList.remove(tempPerson);
             if (containsSecondName(tempPerson.getSecondName(), fullList)){
+                //local code review (vtegza): replace with foreach @ 9/28/2014
                 for (int i = 0; i < fullList.size(); i++) {
                     if (fullList.get(i).getSecondName().equals(tempPerson.getSecondName())) {
                         inner.add(fullList.get(i));
